@@ -1,0 +1,88 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: rgb(70, 70, 201);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: white;
+    color: rgb(70, 70, 201);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.section-title {
+    font-family: Pacifico, coursive;
+}
+
+#sobre-a-loja {
+    background-color: white;
+}
+
+.text-colored {
+    color: rgb(70, 70, 201);
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: rgb(70, 70, 201);
+    color: white;
+}
+
+#produtos {
+    background-color: white;
+}
+
+.nav-produtos .nav-link:hover {
+    color: rgb(70, 70, 201);
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
+
+.carousel img {
+    width: 100%;
+    height: 70vh; /* Ocupa 100% da altura da viewport */
+    object-fit: cover; /* Garante que a imagem se ajuste corretamente */
+}
+
+#aluguel-equips img {
+        width: 100%;
+        height: 300px; /* Ajuste a altura conforme necessário */
+        object-fit: cover;
+} 
+    
+.tab-content img {
+    height: 250px;
+}
+
+#aluguel-equips {
+    background-color: rgb(230, 241, 201);
+}
+
+#fale-conosco {
+    background-color: rgb(230, 241, 201);
+}
